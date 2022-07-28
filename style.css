@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;500;715&family=Roboto:ital,wght@0,500;1,900&display=swap');
+
+
+body{
+    background-color: gray;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.header{
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'Dosis', sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+}
+#btn{
+    border-radius: 5px;
+    border: none;
+    font-size: 18px;
+    padding: 12px;
+    background-color: #e4c61ee1;
+    color: white;
+    margin-top: 20px;
+    position: sticky;
+    margin-left: -2px;
+    font-family: 'Dosis', sans-serif;
+font-weight: 700;
+cursor: pointer;
+}
+.pic{
+height: 90%;
+width: 120%;
+text-shadow: 8px;
+position: absolute;
+object-fit: cover;
+
+}
+#guessName{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20%;
+    margin-right: 15%;
+    position: relative;
+}
+.input{
+   color: gray;
+    font-size: 34px;
+    line-height: 20px;
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 12px;
+    font-weight:bolder;
+
+   
+    
+
+}
+#name{
+    padding: 5px;
+    width: 95px;
+    background-color:gray;
+}
+#name:hover{
+    background-color: #e4c61ee1;
+}
+#btn:hover{
+    background-color:white;
+}
+.age ,.genderType{
+    display: flex;
+    align-items: center;
+    color: #e4c61ee1 ;
+    justify-content: space-evenly;
+    font-size: 30px;
+    position: relative;
+    line-height: 0.5rem;
+}
